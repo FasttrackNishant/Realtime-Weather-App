@@ -1,0 +1,30 @@
+    * {
+        margin: 0;
+        padding: 0;
+        background-color: whitesmoke;
+    }
+    
+    .container {
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .box {
+        border: 2px solid red;
+        height: 277px;
+        margin: 15px 0 15px 0;
+        width: 288px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .time {
+        border: 1px solid red;
+        margin-top: 24px;
+        font-size: 25px;
+        font-weight: bold;
+    }
